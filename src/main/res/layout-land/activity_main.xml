@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+    <LinearLayout android:layout_height="match_parent" android:layout_width="match_parent" android:orientation="vertical" tools:context=".MainActivity" xmlns:tools="http://schemas.android.com/tools" xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <TextView android:layout_height="wrap_content" android:layout_width="match_parent" android:textSize="35dp" android:id="@+id/tv" android:hint="请输入数值" android:layout_marginBottom="0dp" android:layout_marginTop="20dp" android:gravity="right" android:layout_columnSpan="4"/>
+
+
+    <GridLayout android:layout_height="match_parent" android:layout_width="match_parent" android:rowCount="5" android:columnCount="5" android:layout_gravity="">
+
+    <Button android:textSize="30dp" android:id="@+id/ac" android:text="AC" android:background="#E6E6FA" android:layout_columnWeight="1" android:layout_rowWeight="1"/>
+
+    <Button android:textSize="30dp" android:id="@+id/del" android:text="DEL" android:background="#E6E6FA" android:layout_columnWeight="1" android:layout_rowWeight="1"/>
+
+    <Button android:textSize="30dp" android:id="@+id/left" android:text="(" android:background="#E6E6FA" android:layout_columnWeight="1" android:layout_rowWeight="1" android:onClick="onClick"/>
+
+    <Button android:textSize="30dp" android:id="@+id/right" android:text=")" android:background="#E6E6FA" android:layout_columnWeight="1" android:layout_rowWeight="1"/>
+
+    <Button android:textSize="30dp" android:id="@+id/mul" android:text="*" android:background="#E6E6FA" android:layout_columnWeight="1" android:layout_rowWeight="1"/>
+
+    <Button android:textSize="30dp" android:id="@+id/seven" android:text="7" android:background="#FAF0E6" android:layout_columnWeight="1" android:layout_rowWeight="1"/>
+
+    <Button android:textSize="30dp" android:id="@+id/eight" android:text="8" android:background="#FAF0E6" android:layout_columnWeight="1" android:layout_rowWeight="1"/>
+
+    <Button android:textSize="30dp" android:id="@+id/nine" android:text="9" android:background="#FAF0E6" android:layout_columnWeight="1" android:layout_rowWeight="1"/>
+
+    <Button android:textSize="30dp" android:id="@+id/sin" android:text="sin" android:background="#E6E6FA" android:layout_columnWeight="1" android:layout_rowWeight="1" android:textAllCaps="false"/>
+
+    <Button android:textSize="30dp" android:id="@+id/div" android:text="÷" android:background="#E6E6FA" android:layout_columnWeight="1" android:layout_rowWeight="1"/>
+
+    <Button android:textSize="30dp" android:id="@+id/four" android:text="4" android:background="#FAF0E6" android:layout_columnWeight="1" android:layout_rowWeight="1"/>
+
+    <Button android:textSize="30dp" android:id="@+id/five" android:text="5" android:background="#FAF0E6" android:layout_columnWeight="1" android:layout_rowWeight="1"/>
+
+    <Button android:textSize="30dp" android:id="@+id/six" android:text="6" android:background="#FAF0E6" android:layout_columnWeight="1" android:layout_rowWeight="1"/>
+
+    <Button android:textSize="30dp" android:id="@+id/cos" android:text="cos" android:background="#E6E6FA" android:layout_columnWeight="1" android:layout_rowWeight="1" android:textAllCaps="false"/>
+
+    <Button android:textSize="30dp" android:id="@+id/add" android:text="+" android:background="#E6E6FA" android:layout_columnWeight="1" android:layout_rowWeight="1"/>
+
+    <Button android:textSize="30dp" android:id="@+id/one" android:text="1" android:background="#FAF0E6" android:layout_columnWeight="1" android:layout_rowWeight="1"/>
+
+    <Button android:textSize="30dp" android:id="@+id/two" android:text="2" android:background="#FAF0E6" android:layout_columnWeight="1" android:layout_rowWeight="1"/>
+
+    <Button android:textSize="30dp" android:id="@+id/three" android:text="3" android:background="#FAF0E6" android:layout_columnWeight="1" android:layout_rowWeight="1"/>
+
+    <Button android:textSize="45dp" android:id="@+id/dot" android:text="." android:background="#E6E6FA" android:layout_columnWeight="1" android:layout_rowWeight="1"/>
+
+    <Button android:textSize="45dp" android:id="@+id/sub" android:text="-" android:background="#E6E6FA" android:layout_columnWeight="1" android:layout_rowWeight="1"/>
+
+    <Button android:textSize="30dp" android:id="@+id/zero" android:layout_columnSpan="3" android:text="0" android:background="#FAF0E6" android:layout_columnWeight="1" android:layout_rowWeight="1"/>
+
+    <Button android:textSize="30dp" android:id="@+id/eq" android:layout_columnSpan="2" android:text="=" android:background="#E6E6FA" android:layout_columnWeight="1" android:layout_rowWeight="1"/>
+
+</GridLayout>
+
+</LinearLayout>
